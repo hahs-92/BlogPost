@@ -41,11 +41,17 @@ header .header-icons-container {
 
 header .header-icons-container .icons {
     width: 300px;
-    height: auto;
+    height: 50px;
     display: flex;
     justify-items: flex-end;
-    /* align-items: center;*/
     justify-content: space-between; 
     /* justify-self: end; */
+    align-items: center;
     margin-right: 50px;
+}
+
+
+.icons img {
+    width: 40px;
+    height: 40px;
 }
