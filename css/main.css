@@ -232,7 +232,7 @@ nav .profile-link a {
 footer {
     padding: 10px;
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: #22272d;
     border-top: 35px solid  #47cfac;
     text-align: center;
