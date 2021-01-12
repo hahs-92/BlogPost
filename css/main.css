@@ -18,6 +18,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* ----------grid container----------------- */
+
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* -------------fin grid container-------------------- */
 
 a {
     text-decoration: none;
@@ -164,6 +175,8 @@ nav .profile-link a {
 .blogs-news-info-container p {
     margin-bottom: 35px;
 }
+/* 
+----------blogspost------------ */
 
 .blogs-post-container {
     padding: 0 50px 40px;
@@ -189,10 +202,17 @@ nav .profile-link a {
 
 /* --------------seccion2---------- */
 
+.blogs-post-container {
+    margin-top: 50px;
+}
+
 .blogs-posts-container .post-container {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-left: 10px;
-    max-width: 30%;
+    width: 30%;
+    min-width: 250px;
     margin-bottom: 50px;
 }
 
