@@ -9,11 +9,11 @@ html {
 }
 
 body {
-    position: fixed;
+    /* position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -129,3 +129,95 @@ nav .profile-link a {
     background-color:  #279277;;
 }
 
+
+/* ---------------vista blogs-------------- */
+
+.blogs-main {
+    margin-top: 50px;
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+    width: 85%;
+
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-post-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-post-container h3 {
+    border-bottom: 1px solid #e6e9ed;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button {
+    border: 1px solid #47cfac;
+    border-radius: 1px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.blogs-button:hover{
+    background-color: #247c66;
+}
+
+/* --------------seccion2---------- */
+
+.blogs-posts-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container h4,p {
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img {
+    width: 100%;
+}
+
+
+
+/* --------------footer------------------------- */
+
+footer {
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid  #47cfac;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
